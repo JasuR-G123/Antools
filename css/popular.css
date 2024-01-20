@@ -1,0 +1,143 @@
+.popular {
+    padding: 200px 0;
+}
+
+.popular__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.popular__desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.popular__desc-title {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFFE5;
+}
+
+.popular__desc-text {
+    font-family: 'Poppins-Regular';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF8C;
+    text-align: center;
+    max-width: 427px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.popular__cards-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 362px;
+    width: 100%;
+    height: 294px;
+    padding: 35px;
+    gap: 30px;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+.popular__cards-card-image {
+    display: flex;
+}
+
+.popular__cards-card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF8C;
+    width: 315px;
+}
+
+.popular__cards-card-image-price-title {
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #FFFFFFC7;
+}
+
+.popular__cards-card-image-price-price {
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFA5378C;
+    max-width: 326px;
+    width: 100%;
+}
+
+.popular__cards-card-image-price {
+    padding: 0 0 20px 30px;
+}
+
+.popular__cards-card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.popular__cards-card-btns-images {
+    display: flex;
+    gap: 25px;
+}
+
+.popular__cards-card-btns-visit,
+.popular__cards-card-btns-visit a {
+    padding: 9px 35px;
+    color: #FFFFFF8C;
+}
+
+.popular__cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.popular__cards-card-btns-visit,
+.popular__cards-card-btns-visit a {
+    padding: 9px 35px;
+    color: #FFFFFF8C;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.popular__cards-card-btns-visit a:hover {
+    background: #FF6E30;
+
+    color: #fff;
+}
+
+.popular__cards-card:hover {
+    transform: translateY(-20px);
+    background-image: url(../images/bgcard.png);
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.popular__btn-item {
+    background: none;
+    border: 1px solid #FFFFFF1A;
+    padding: 17px 38px;
+    color: #FF6E30;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popular__btn {
+    display: flex;
+    justify-content: center;
+}

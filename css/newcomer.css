@@ -1,0 +1,141 @@
+.newcomer {
+    padding: 200px 0 100px 0;
+}
+
+.newcomer__wrapper {
+    display: flex;
+    gap: 197px;
+    align-items: center;
+}
+
+.newcomer__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.newcomer__desc {
+    max-width: 427px;
+    width: 100%;
+}
+
+.newcomer__desc-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFFE5;
+}
+
+.newcomer__desc-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF8C;
+
+    padding: 30px 0px 60px 0px;
+}
+
+
+.newcomer__desc-btn {
+    max-width: 198px;
+    width: 100%;
+    padding: 16px 0;
+    background: #ff6e30;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.newcomer__cards {
+    display: flex;
+    gap: 24px;
+}
+
+.newcomer__cards-card-bottom {
+    margin-bottom: 50px;
+}
+
+.newcomer__cards-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newconer__cards-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.newcomer__cards-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: 0.7s;
+    border-radius: 15px;
+    padding: 22px 28px;
+}
+
+.newcomer__cards-card-image {
+    display: flex;
+}
+
+.newcomer__cards-card-image-price {
+    padding: 0 0 20px 30px;
+}
+
+.newcomer__cards-card-image-price-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #FFFFFFC7;
+}
+
+.newcomer__cards-card-image-price-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFA5378C;
+}
+
+.newcomer__cards-card-text {
+    max-width: 245px;
+    width: 100%;
+    color: #FFFFFF8C;
+}
+
+.newcomer__cards-card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newcomer__cards-card-btns-images {
+    display: flex;
+    gap: 25px;
+}
+
+.newcomer__cards-card-btns-visit,
+.newcomer__cards-card-btns-visit a {
+    color: #FFFFFF8C;
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 9px 30px;
+}
+
+.newcomer__cards-card-btns-visit a:hover {
+    background: #FF6E30;
+
+    color: #fff;
+}
+
+.newcomer__cards-card:hover {
+    transform: translateY(-20px);
+    background-image: url(../images/newcomerbg.png);
+    border-radius: 15px;
+    opacity: 0.8;
+}
